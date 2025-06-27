@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 600px;
+    width: 600px;
+    background-color: violet;
+    
+}
+
+.card1  {
+    grid-area: 1/1/3/2;
+    background-color:blue;
+}
+.card2 {
+    grid-area: 1/2/3/3;
+    background-color:red;
+}
+.card3 {
+    grid-area: 2/2/3/3;
+    background-color: blue;
+}
+.card4 {
+    grid-area: 1/3/3/4;
+    background-color:yellow;
+}
